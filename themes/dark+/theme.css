@@ -3,59 +3,59 @@
  * (c) 2020 dragonwocky <thedragonring.bod@gmail.com>
  * (c) 2020 TarasokUA
  * (https://dragonwocky.me/) under the MIT license
- *
- * Dracula Theme by Sravan Balaji <balajsra@umich.edu>
+ * 
+ * Dark+ Theme by dragonwocky <thedragonring.bod@gmail.com>
  */
 
 :root {
   /** backgrounds **/
-  --theme-main: rgb(40, 42, 54);
-  --theme-sidebar: rgb(33, 34, 44);
-  --theme-drag: rgb(68, 71, 90);
-  --theme-primary: rgb(189, 147, 249);
-  --theme-primary_hover: rgb(68, 71, 90);
-  --theme-primary_click: rgb(33, 34, 44);
-  --theme-primary_indicator: rgb(189, 147, 249);
+  --theme-main: rgb(5, 5, 5);
+  --theme-sidebar: rgb(1, 1, 1);
+  --theme-drag: #030303;
+  --theme-primary: rgb(177, 24, 24);
+  --theme-primary_hover: rgb(202, 26, 26);
+  --theme-primary_click: rgb(219, 41, 41);
+  --theme-primary_indicator: rgb(202, 26, 26);
 
   /** databases **/
-  --theme-card: rgb(52, 55, 70);
-  --theme-card_border: rgba(52, 55, 70, 0.7);
-  --theme-button: rgb(66, 68, 80); 
+  --theme-card: rgb(4, 4, 4);
+  --theme-card_border: rgba(10, 10, 10, 0.7);
+  --theme-button: rgb(15, 15, 15);
   --theme-button_border: rgba(78, 78, 78, 0.7);
   --theme-table_border: rgba(255, 255, 255, 0.1);
 
   /** scrollbars **/
-  --theme-scrollbar: rgb(66, 68, 80);
-  --theme-scrollbar_hover: rgb(68, 71, 90);
+  --theme-scrollbar: #232425;
+  --theme-scrollbar_hover: #373838;
 
   /** colours **/
-  --theme-text_gray: rgb(248, 248, 242);
+  --theme-text_gray: rgba(151, 154, 155, 0.95);
   --theme-text_brown: rgb(147, 114, 100);
-  --theme-text_orange: rgb(255, 184, 108);
-  --theme-text_yellow: rgb(241, 250, 140);
-  --theme-text_green: rgb(80, 250, 123);
-  --theme-text_blue: rgb(139, 233, 253);
-  --theme-text_purple: rgb(189, 147, 249);
-  --theme-text_pink: rgb(255, 121, 198);
-  --theme-text_red: rgb(255, 85, 85);
-  --theme-bg_gray: rgba(126, 128, 129, 0.75);
-  --theme-bg_brown: rgba(147, 114, 100, 0.75);
-  --theme-bg_orange: rgba(255, 184, 0, 0.75);
-  --theme-bg_yellow: rgba(241, 250, 0, 0.75);
-  --theme-bg_green: rgba(80, 250, 140, 0.75);
-  --theme-bg_blue: rgba(139, 233, 253, 0.75);
-  --theme-bg_purple: rgba(189, 147, 249, 0.75);
-  --theme-bg_pink: rgba(255, 121, 198, 0.75);
-  --theme-bg_red: rgba(255, 85, 85, 0.75);
-  --theme-line_gray: rgba(126, 128, 129, 0.5);
-  --theme-line_brown: rgba(147, 114, 100, 0.5);
-  --theme-line_orange: rgba(255, 184, 0, 0.5);
-  --theme-line_yellow: rgba(241, 250, 0, 0.5);
-  --theme-line_green: rgba(80, 250, 140, 0.5);
-  --theme-line_blue: rgba(139, 233, 253, 0.5);
-  --theme-line_purple: rgba(189, 147, 249, 0.5);
-  --theme-line_pink: rgba(255, 121, 198, 0.5);
-  --theme-line_red: rgba(255, 85, 85, 0.5);
+  --theme-text_orange: rgb(255, 163, 68);
+  --theme-text_yellow: rgb(255, 220, 73);
+  --theme-text_green: rgb(50, 169, 104);
+  --theme-text_blue: rgb(82, 156, 202);
+  --theme-text_purple: rgb(154, 109, 215);
+  --theme-text_pink: rgb(226, 85, 161);
+  --theme-text_red: rgb(218, 47, 35);
+  --theme-bg_gray: rgba(126, 128, 129, 0.5);
+  --theme-bg_brown: #50331f;
+  --theme-bg_orange: rgba(255, 155, 0, 0.58);
+  --theme-bg_yellow: rgba(183, 155, 0, 1);
+  --theme-bg_green: rgb(50, 129, 47);
+  --theme-bg_blue: rgba(0, 90, 146, 0.71);
+  --theme-bg_purple: rgba(91, 49, 148, 0.74);
+  --theme-bg_pink: rgba(243, 61, 159, 0.5);
+  --theme-bg_red: rgb(122, 20, 20);
+  --theme-line_gray: rgba(126, 128, 129, 0.301);
+  --theme-line_brown: #50331fad;
+  --theme-line_orange: rgba(255, 153, 0, 0.315);
+  --theme-line_yellow: rgba(183, 156, 0, 0.445);
+  --theme-line_green: rgba(50, 129, 47, 0.39);
+  --theme-line_blue: rgba(0, 90, 146, 0.521);
+  --theme-line_purple: rgba(90, 49, 148, 0.349);
+  --theme-line_pink: rgba(243, 61, 158, 0.301);
+  --theme-line_red: rgba(122, 20, 20, 0.623);
 }
 
 /** backgrounds **/

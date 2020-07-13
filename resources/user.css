@@ -5,6 +5,10 @@
  * (https://dragonwocky.me/) under the MIT license
  */
 
+[style*='monospace;'] {
+  font-family: 'Fira Code', monospace !important;
+}
+
 /* titlebar */
 .notion-topbar {
   height: 55px !important;
